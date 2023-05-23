@@ -18,3 +18,6 @@
 | Docker and Podman | Docker | Because Docker can be used on many platforms and many arch's. For testing puropose is a best choice. |
 | Minikube/Kind/k3d | Minikube | Depending on needs Comparing Minikube, Kind and K3D, you should pay attention to several factors. Minikube is quite simple to use, but it can be slightly slow because it starts on a local machine. Therefore, if you/we need a quick cluster, then minikube may not be the best choice. Kind is a convenient and easy-to-use way of running Kubernetes cluster, which also allows you to use your local machine. However, if you need a Kubernetes cluster with more resources, Kind can be less effective. k3d is another tool for running Kubernetes cluster that works in Docker and makes it easy to create clusters based on Docker. It is quite fast and efficient to use. So, if you are looking for a quick and easy-to-use tool that does not require much resources, k3d may be the best option. If you are looking for a test for testing or designing only, then Minikube and Kind can also be good options. Recommend k3d as universal choice for any purpose. |
 ---------------------------------------------
+
+### Represent use minikube
+![How we can run minikube](./.data/minikube.gif)
