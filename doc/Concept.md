@@ -20,4 +20,4 @@
 ---------------------------------------------
 
 ### Represent use minikube
-![How we can run minikube](.data/minikube.gif)
+![How we can run minikube](../.data/minikube.gif)
